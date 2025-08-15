@@ -11,8 +11,12 @@ To release a new version, please select a new version number (usually plus 1 to 
 
 Pending
 +++++++
+
+18.0.0b44
++++++++
 * Vendor new SDK and bump API version to 2025-08-02-preview.
 * Pre-deprecate `--enable-custom-ca-trust` and `--disable-custom-ca-trust` in `az aks create`, `az aks update` commands.
+* `az aks update`: Add new parameter `--kms-infrastructure-encryption` to enable KMS infrastructure encryption on an existing cluster.
 
 18.0.0b43
 +++++++
@@ -88,6 +92,10 @@ Pending
 18.0.0b29
 +++++++
 * Refactor code to suppress ssh access warning message when creating an automatic cluster.
+
+18.0.0b29
++++++++
+* `az aks create/update`: Add new parameter `--kms-infrastructure-encryption` to enable KMS infrastructure encryption.
 
 18.0.0b28
 +++++++
